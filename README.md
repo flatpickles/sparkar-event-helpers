@@ -11,7 +11,7 @@ const Audio = require("Audio");
 const Time = require("Time");
 const TouchGestures = require("TouchGestures");
 
-const EventHelpers = require("./sparkar-event-helpers.js");
+const EventHelpers = require("sparkar-event-helpers");
 
 // Sonar sound playback controller & event function
 const sonarController = Audio.getPlaybackController("sonar_controller");

@@ -91,7 +91,7 @@ module.exports = {
     * @return {Object}                            A LimitedEvent object
     */
   makeLimitedEvent: (config) => {
-    if (!config.maxFrequency) config.maxFrequency = 200;
+    config.maxFrequency = config.maxFrequency || 200;
     const newEvent = LimitedEvent(config);
     return newEvent.run;
   }
