@@ -1,7 +1,12 @@
 {
   "name": "sparkar-event-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility functions for event management in Spark AR",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
